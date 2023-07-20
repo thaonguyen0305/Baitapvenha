@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+</head>
+<style>
+    .wufoo {
+        font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+    }
+</style>
+<body>
+<form action="http://127.0.0.1:5500/thank%20you.html" methor="get" class = "wufoo">
+<h1>Order Form</h1>
+<p><b>What would you like to buy?</b></p>
+<select>
+    <option value=" ">A</option>
+    <option>B (+ 0.5%)</option>
+    <option>C (+ 0.5%)</option>
+</select>    
+<p><b>How many would you like to buy?</b></p>
+<input type="radio" name="gender" value="rd" checked>1-$10<br>
+<input type="radio" name="gender" value="rd" checked>2-$20<br>
+<input type="radio" name="gender" value="rd" checked>3-$30<br>
+<p><b>Name</b><span style="color: red">*</span></p>
+<input type="text" name="firstname" placeholder="firstname" size="15">
+<input type="text" name="lastname" placeholder="lastname" size="15">
+<p><b>Email</b></p>
+<input type="text" name="email" size="15">
+<p><b>Phone number</b></p>
+<input type="text" name="phone1" size="7"> - 
+<input type="text" name="phone2" size="7"> - 
+<input type="text" name="phone3" size="7"><br>
+<input type="submit" name="submit">
+</form>    
+</body>
+</html>
